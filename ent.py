@@ -61,13 +61,16 @@ def tarahi():
     messagebox.showerror(" Schools_V1",gtdsp(ar.reshape("  . متأسفانه این قسمت طراحی نشده است . ورود شما ممکن نیست   . از صبر شما سپاس گذاریم")))
 ttk.Label(Root_Window, text=gtdsp(ar.reshape(" نرم افزار اداری "))).pack(side=TOP)
 btn_1 = ttk.Button(Root_Window, text=gtdsp(ar.reshape(" مدیر مجموعه ")),  command=tarahi).pack(pady=18)
+from tkinter import *
 btn_2 = ttk.Button(Root_Window, text=gtdsp(ar.reshape("معاون آموزشی")), command=tarahi).pack(pady=18)
 def mvn_ejr():
     Root_Window.destroy()
-    import ​
-2
+    import mvn_ejr2
+70
 from logging.handlers import RotatingFileHandler
+71
 3
+72
 from sqlite3 import Rowmvn_ejr
     
 btn_3 = ttk.Button(Root_Window, text=  gtdsp(ar.reshape(" معاونت اجرایی ")) ,command=mvn_ejr).pack(pady=18)

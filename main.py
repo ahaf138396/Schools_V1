@@ -65,13 +65,12 @@ def submit():
             def top1():
                 top1=Toplevel(Root_Window)
                 top1.title(" Schools_V1 ")
-                tp_lbl=ttk.Label(top1, text=gtdsp(ar.reshape(" . لطفا تا بارگذاری اطلاعات شکیبا باشید ")), font=(
-                    'Vazir', 13)).pack()
+                tp_lbl=ttk.Label(top1, text=gtdsp(ar.reshape(" . لطفا تا بارگذاری اطلاعات شکیبا باشید ")), font=('Vazir', 13)).pack()
                 tp_btn=Button(top1, text=gtdsp(ar.reshape(" خروج ")), command=Root_Window.destroy).pack()
             # top1()
         #open_Toplevel1()
         Root_Window.destroy()
-        import ent.ent
+        import ent
     else:
         messagebox.showerror(
             " Schools_V1 ", gtdsp(ar.reshape(" . هشدار ! نام کاربری یا کلمه عبور اشتباه است"))

@@ -1,6 +1,3 @@
-
-from logging.handlers import RotatingFileHandler
-from sqlite3 import Row
 from tkinter import *
 from tkinter.font import Font
 from tkinter.ttk import *
@@ -67,7 +64,11 @@ btn_1 = ttk.Button(Root_Window, text=gtdsp(ar.reshape(" مدیر مجموعه ")
 btn_2 = ttk.Button(Root_Window, text=gtdsp(ar.reshape("معاون آموزشی")), command=tarahi).pack(pady=18)
 def mvn_ejr():
     Root_Window.destroy()
-    import ent.mvn_ejr
+    import ​
+2
+from logging.handlers import RotatingFileHandler
+3
+from sqlite3 import Rowmvn_ejr
     
 btn_3 = ttk.Button(Root_Window, text=  gtdsp(ar.reshape(" معاونت اجرایی ")) ,command=mvn_ejr).pack(pady=18)
 ttk.Label(Root_Window, text="  ").pack(side=BOTTOM)
